@@ -78,7 +78,7 @@ const AppSidebar = () => {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <Link href="/">
-                <Image src="/logo.jpg" alt="logo" width={24} height={24} />
+                <Image src="/favi.jpg" alt="logo" width={24} height={24} className="rounded-full"/>
                 <span>x239 dev</span>
               </Link>
             </SidebarMenuButton>

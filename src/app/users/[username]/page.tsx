@@ -35,7 +35,7 @@ const SingleUserPage = () => {
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>John Doe</BreadcrumbPage>
+            <BreadcrumbPage>Abdulnour Jamal</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
@@ -126,19 +126,19 @@ const SingleUserPage = () => {
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Username:</span>
-                <span>john.doe</span>
+                <span>Abdulnour Jamal</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Email:</span>
-                <span>john.doe@gmail.com</span>
+                <span>Abdulnour_Abdulrhman@outlook.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Phone:</span>
-                <span>+1 234 5678</span>
+                <span>+962 7 97743569</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Location:</span>
-                <span>New York, NY</span>
+                <span>Jo, Amman</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="font-bold">Role:</span>
@@ -160,10 +160,10 @@ const SingleUserPage = () => {
           <div className="bg-primary-foreground p-4 rounded-lg space-y-2">
             <div className="flex items-center gap-2">
               <Avatar className="size-12">
-                <AvatarImage src="https://avatars.githubusercontent.com/u/1486366" />
-                <AvatarFallback>JD</AvatarFallback>
+                <AvatarImage src="https://github.com/x-239.png?size=400" />
+                <AvatarFallback>X9</AvatarFallback>
               </Avatar>
-              <h1 className="text-xl font-semibold">John Doe</h1>
+              <h1 className="text-xl font-semibold">x239</h1>
             </div>
             <p className="text-sm text-muted-foreground">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
