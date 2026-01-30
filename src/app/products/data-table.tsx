@@ -55,7 +55,7 @@ export function DataTable<TData, TValue>({
         <div className="flex justify-end">
             <button className="flex items-center gap-1 rounded-md bg-red-500 text-sm px-1 py-1 m-2 cursor-pointer">
               <Trash2 className="h-5 w-5"/>
-              Delete Payment(s)
+              Delete Product(s)
             </button>
         </div>
       )}

@@ -106,6 +106,22 @@ const SingleUserPage = () => {
               </HoverCard>
             </div>
           </div>
+          {/* USER CARD CONTAINER */}
+          <div className="bg-primary-foreground p-4 rounded-lg space-y-2">
+            <div className="flex items-center gap-2">
+              <Avatar className="size-12">
+                <AvatarImage src="https://github.com/x-239.png?size=400" />
+                <AvatarFallback>X9</AvatarFallback>
+              </Avatar>
+              <h1 className="text-xl font-semibold">x239</h1>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
+              voluptas distinctio ab ipsa commodi fugiat labore quos veritatis
+              cum corrupti sed repudiandae ipsum, harum recusandae ratione ipsam
+              in, quis quia.
+            </p>
+          </div>
           {/* INFORMATION CONTAINER */}
           <div className="bg-primary-foreground p-4 rounded-lg">
             <div className="flex items-center justify-between">
@@ -125,7 +141,7 @@ const SingleUserPage = () => {
                 <Progress value={66} />
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-bold">Username:</span>
+                <span className="font-bold">Full name:</span>
                 <span>Abdulnour Jamal</span>
               </div>
               <div className="flex items-center gap-2">
@@ -137,41 +153,21 @@ const SingleUserPage = () => {
                 <span>+962 7 97743569</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-bold">Location:</span>
-                <span>Jo, Amman</span>
+                <span className="font-bold">Address:</span>
+                <span>111, Main street</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-bold">Role:</span>
-                <Badge>Admin</Badge>
+                <span className="font-bold">City:</span>
+                <span>Amman</span>
               </div>
             </div>
             <p className="text-sm text-muted-foreground mt-4">
               Joined on 2025.01.01
             </p>
           </div>
-          {/* CARD LIST CONTAINER */}
-          <div className="bg-primary-foreground p-4 rounded-lg">
-            <CardList title="Recent Transactions" />
-          </div>
         </div>
         {/* RIGHT */}
         <div className="w-full xl:w-2/3 space-y-6">
-          {/* USER CARD CONTAINER */}
-          <div className="bg-primary-foreground p-4 rounded-lg space-y-2">
-            <div className="flex items-center gap-2">
-              <Avatar className="size-12">
-                <AvatarImage src="https://github.com/x-239.png?size=400" />
-                <AvatarFallback>X9</AvatarFallback>
-              </Avatar>
-              <h1 className="text-xl font-semibold">x239</h1>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
-              voluptas distinctio ab ipsa commodi fugiat labore quos veritatis
-              cum corrupti sed repudiandae ipsum, harum recusandae ratione ipsam
-              in, quis quia.
-            </p>
-          </div>
           {/* CHART CONTAINER */}
           <div className="bg-primary-foreground p-4 rounded-lg">
             <h1 className="text-xl font-semibold">User Activity</h1>
